@@ -17,3 +17,5 @@ RUN \
 
 RUN \
     bash -c "git clone https://github.com/phanrahan/magma"
+
+ADD setup.cfg /magma/
